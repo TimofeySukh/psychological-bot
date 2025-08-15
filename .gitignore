@@ -1,0 +1,29 @@
+# Переменные окружения
+.env
+
+# База данных
+*.db
+bot_database.db
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Логи
+*.log
+
+# Временные файлы
+.DS_Store
+Thumbs.db
