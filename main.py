@@ -10,7 +10,7 @@ from payment_system import MockPaymentSystem, YooKassaPayment, RobokassaPayment
 from subscription_manager import SubscriptionManager, run_subscription_checker
 
 # Загружаем переменные окружения
-load_dotenv()
+load_dotenv() 
 
 # Настройки бота из .env
 BOT_TOKEN = os.getenv('BOT_TOKEN')
